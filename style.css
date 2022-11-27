@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: homa;
+    font-size: 8vh;
+    line-height: 1;
+}
+@font-face {
+    font-family: homa;
+    src: url(IRHoma.ttf);
+}
+
+body {
+    background-image: url(bg.svg);
+}
+textarea {
+    display: inline-block;
+    text-align: center;
+    width: 80vw;
+    height: 72vh;
+    margin: 5vh 5vw;
+    resize: none;
+    border: 5px solid #140064d8;
+    background-color: rgba(238, 238, 238, 0.39);
+    border-radius: 5vmin;
+}
+button {
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    width: 5vw;
+    height: 90vh;
+    margin: 0;
+    border: 5px solid #140064d8;
+    background-color: rgba(238, 238, 238, 0.39);
+    border-radius: 5vmin;
+    font-size: 7vw;
+}
+p {
+    height: 10vh;
+    width: 80vw;
+    margin: 0 5vw;
+    text-align: center;
+    border: 5px solid #140064d8;
+    background-color: rgba(238, 238, 238, 0.39);
+    border-radius: 5vmin;
+}
+img {
+    height: 4vw;
+    width: 4vw;
+    position: fixed;
+    top: 9vh;
+    left: 5.5vw;
+}
+
+::-webkit-scrollbar {
+    height: 25vh;
+    background-color:#0de9da;
+    box-shadow: inset 0px -1px 13px #02af53;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0px -1px 13px #0205af;
+    border-radius: 10px;
+}
